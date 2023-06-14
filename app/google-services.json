@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722343063186",
+    "project_id": "driver-arlet",
+    "storage_bucket": "driver-arlet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722343063186:android:54ae522bd077162a48404b",
+        "android_client_info": {
+          "package_name": "com.example.driverarlet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722343063186-d5l5utc7qfd232ong6phq84pli20mpe0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTTELmvIyap9EGMmSapA90Y2aYN4rYQYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722343063186-d5l5utc7qfd232ong6phq84pli20mpe0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

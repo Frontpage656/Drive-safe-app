@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:elevation="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:clickable="true"
+        android:id="@+id/card"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/from"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:layout_gravity="center"
+            android:text="TBR"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="57dp"
+            android:src="@drawable/arrow_right" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/distance"
+            android:layout_gravity="center"
+            android:text="30Km"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="57dp"
+            android:src="@drawable/arrow_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/to"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:text="MWZ"
+            android:textSize="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
